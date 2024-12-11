@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Juguetes para Niños</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Estilo del encabezado */
+        header {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 2rem;
+        }
+
+        /* Barra de navegación */
+        .navbar {
+            background-color: rgb(42, 209, 19);;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-size: 1rem;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+
+        .navbar a:hover {
+            background-color: green;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .product-card h3 {
+            color: #2c3e50;
+            padding: 10px;
+            font-size: 1.2rem;
+        }
+
+        .product-card p {
+            color: #7f8c8d;
+            padding: 0 10px;
+            font-size: 1rem;
+        }
+
+        .product-card .price {
+            color: black;
+            font-size: 1.5rem;
+            margin: 15px 0;
+        }
+
+        .product-card button {
+            background-color: rgb(255, 230, 0);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .product-card button:hover {
+            background-color: rgb(255, 200, 0);
+        }
+    </style>
+</head>
+<body>
+
+<!-- Encabezado -->
+<header>
+    Variedad de juguetes para 5-7 Años 
+</header>
+
+<!-- Barra de navegación -->
+<div class="navbar">
+    <a href="Pagina principal Original.html">Inicio</a>
+    <a href="contacto original.html">Contacto</a>
+</div>
+
+<div class="main-content">
+    <!-- Producto 1 -->
+    <div class="product-card">
+        <img src="IMG/juguete 1-2 años2.avif" alt="Construcción">
+        <h3>Andadera V.Dinosaurio</h3>
+        <p>Linda andadera version dinosaurio excelente para pasear a tus hijos.</p>
+        <div class="price">$500.00</div>
+        <a href="contacto original.html"><button>Comprar</button></a>
+    </div>
+
+   <!-- Producto 2 -->
+<div class="product-card">
+    <img src="IMG/juguete 1-2 años.jpg" alt="Dinosaurio con piezas desmontables">
+    <h3 style="font-size: 1.5rem; color: #333;">Dinosaurio Didáctico</h3>
+    <p >Este divertido dinosaurio con piezas desmontables es perfecto para desarrollar la motricidad.</p>
+    <div class="price">$150.00</div>
+    <a href="contacto original.html">
+        <a href="contacto original.html"><button>Comprar</button></a>
+    </a>
+</div>
+
+    <!-- Producto 3 -->
+    <div class="product-card">
+        <img src="IMG/juguete 1-2 años3.jpg" alt="Sonajero">
+        <h3>Canasto de Basquet</h3>
+        <p>Este juguete es ideal para que tus hijos practiquen un deporte.</p>
+        <div class="price">$200.00</div>
+        <a href="contacto original.html"><button>Comprar</button></a>
+    </div>
+
+    <!-- Producto 4 -->
+    <div class="product-card">
+        <img src="IMG/juguete 1-2 años4.jpg" alt="Sonajero Tradicional">
+        <h3>Asiento Musical</h3>
+        <p>Este producto es perfecto para entretener a tu hijo mientras estas ocupado.</p>
+        <div class="price">$170.00</div>
+        <a href="contacto original.html"><button>Comprar</button></a>
+    </div>
+
+    <!-- Producto 5 -->
+    <div class="product-card">
+        <img src="IMG/juguete 1-2 años5.jpg" alt="Transporte de construcción">
+        <h3>Portapizarron</h3>
+        <p>Ideal para que tu pequeño plasme sus pensamientos o sus gusto.</p>
+        <div class="price">$90.00</div>
+        <a href="contacto original.html"><button>Comprar</button></a>
+    </div>
+
+    <!-- Producto 6 -->
+    <div class="product-card">
+        <img src="IMG/juguete 1-2 años6.jpg" alt="Transporte de construcción">
+        <h3>Fabrica de crayolas</h3>
+        <p>Ideal para que tu pequeño agarre el gusto de poder crear sus propias crayolas.</p>
+        <div class="price">$150.00</div>
+        <a href="contacto original.html"><button>Comprar</button></a>
+    </div>
+
+    <!-- Producto 7 -->
+    <div class="product-card">
+        <img src="IMG/juguete 1-2 años7.webp" alt="Transporte de construcción">
+        <h3>Computador Musical</h3>
+        <p>Ideal para que tu pequeño se distraiga y pase un momento feliz aprendiendo.</p>
+        <div class="price">$250.00</div>
+        <a href="contacto original.html"><button>Comprar</button></a>
+    </div>
+
+    <!-- Producto 8 -->
+    <div class="product-card">
+        <img src="IMG/juguete 1-2 años8.avif" alt="Transporte de construcción">
+        <h3>Cuatrimoto con bateria</h3>
+        <p>Ideal para que tu pequeño te acompañe a dar un paseo sin necesidad de cargarlo</p>
+        <div class="price">$1000.00</div>
+        <a href="contacto original.html"><button>Comprar</button></a>
+    </div>
+
+    <!-- Producto 9 -->
+    <div class="product-card">
+        <img src="IMG/juguete 1-2 años9.avif" alt="Transporte de construcción">
+        <h3>Laberinto</h3>
+        <p>Ideal para que tu pequeño empiece a desarrollar habilidades de pensamiento.</p>
+        <div class="price">$80.00</div>
+        <a href="contacto original.html"><button>Comprar</button></a>
+    </div>
+
+    <!-- Producto 10-->
+    <div class="product-card">
+        <img src="IMG/juguete 1-2 años10.webp" alt="Transporte de construcción">
+        <h3>Peluche con Sonido</h3>
+        <p>Ideal para que se entretengan y disfruten de un rato de sonido relajantes para ellos.</p>
+        <div class="price">$120.00</div>
+        <a href="contacto original.html"><button>Comprar</button></a>
+    </div>
+</div>
+
+</body>
+</html>
